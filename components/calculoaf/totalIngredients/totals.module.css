@@ -1,0 +1,28 @@
+.table {
+  border-collapse: collapse;
+}
+
+.table td:last-child {
+  text-align: end;
+}
+
+.table tfoot tr:first-child td {
+  border-top: solid 2px var(--fg-primary);
+  padding-top: 0.25rem;
+}
+
+.table tbody tr:last-child td {
+  padding-bottom: 0.25rem;
+}
+
+.table td:last-child,
+th:last-child {
+  padding-left: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  align-items: center;
+}

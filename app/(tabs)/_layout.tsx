@@ -32,6 +32,15 @@ export default function TabLayout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="workspace"
+        options={{
+          title: 'Workspace',
+          tabBarIcon: ({ color, focused }) => (
+            <TabBarIcon name={focused ? 'skull' : 'skull-outline'} color={color} />
+          ),
+        }}
+      />
     </Tabs>
   );
 }
